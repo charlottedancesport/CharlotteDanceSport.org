@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#top_navigation {
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33377A41,endColorstr=#33377A41); /*AARRGGBB*/
+	zoom: 1;
+	}
+	
+#top_nav_extension{
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33377A41,endColorstr=#33377A41); /*AARRGGBB*/
+	zoom: 1;
+	}
+	
+#green_alerts_banner_extension{
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#22000000,endColorstr=#22000000); /*AARRGGBB*/
+	zoom: 1;
+	}
+	
+#green_alerts_banner_extension_1024{
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#22000000,endColorstr=#22000000); /*AARRGGBB*/
+	zoom: 1;
+	}
+	
+.transparent_green {
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#22498E00,endColorstr=#22498E00); /*AARRGGBB*/
+	zoom: 1;
+	}
+/*	
+#top_nav_home_icon{
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/cds_home.png, sizingMethod='scale');
+	}
+	
+#top_nav_home_icon:hover {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/cds_home_hover.png, sizingMethod='scale');
+	}
+*/
+.nextCalendar{
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/sidebar_cal_next_arrow.png, sizingMethod='scale');
+	}
+	
+.previousCalendar{
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/sidebar_cal_previous_arrow.png, sizingMethod='scale');
+	}
+	
+.white_left_arrow {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/post_arrow.png, sizingMethod='image');
+	}
+
+.prebronze_arrow {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/prebronze_arrow.png, sizingMethod='scale');
+	}
+.associate_arrow {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/associate_arrow.png, sizingMethod='scale');
+	}
+.licentiate_arrow {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/licentiate_arrow.png, sizingMethod='scale');
+	}
+
+.tooltip {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/black_arrow.png, sizingMethod='scale');
+	
+}
+.floating_edit_button {
+	filter:alpha(opacity=40);
+	}
+.left_arrow {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/comment_bubble1_arrow.png, sizingMethod='scale');
+	}
+.top_bg {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/comment_bubble1_top_bg.png, sizingMethod='scale');
+	}
+.main_bg {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/comment_bubble1_wide_bg.png, sizingMethod='scale');
+	}
+.base_bg {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/comment_bubble1_wide_base.png, sizingMethod='scale');
+	}
+.author_left_arrow {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/comment_bubble2_arrow.png, sizingMethod='scale');
+	}
+.author_top_bg {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/comment_bubble2_top_bg.png, sizingMethod='scale');
+	}
+.author_main_bg {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/comment_bubble2_wide_bg.png, sizingMethod='scale');
+	}
+.author_base_bg {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/comment_bubble2_wide_base.png, sizingMethod='scale');
+	}
+.standard_dancers_img {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/ballroom_dancers.png, sizingMethod='scale');
+	}
+.latin_dancers_img {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../wp-content/themes/charlotte_dancesport/img/latin_dancers.png, sizingMethod='scale');
+	}

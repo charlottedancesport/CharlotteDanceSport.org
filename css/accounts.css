@@ -1,0 +1,303 @@
+/*  
+Theme Name: Charlotte DanceSport
+Theme URI: http://www.charlottedancesport.org
+Description: Styles for the account profile page
+
+Author: Lance Newby
+//Author URI: http://www.lancenewby.com
+
+   Cascading Style Sheet for Charlotte DanceSport
+   (c) 2010 Charlotte DanceSport d/b/a/ 49er Social & Ballroom Dance Club
+*/
+
+/* Account Management page styles */
+body {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size:12px;
+	color: #000;
+	margin:0px;
+	padding:0px;
+}
+.wrapper{
+	margin: 0 auto 0 auto;
+	width: 1024px;
+}
+.narrowcolumn{
+	float: left;
+	width: 945px;
+}
+.a-a{
+	border-bottom: 1px solid #dedede;
+	width:670px;
+	height:auto;
+	float: left;
+	padding: 1.4em 0 1.4em 0;
+	margin:0px;
+	cursor:pointer;
+}
+.a-b{
+	width:225px;
+	font-weight:bold;
+	position:relative;
+	font-size: 12px;
+	float:left;
+	margin:0px 0px 0px 5px;
+	padding:0px;
+}
+.a-c{
+	width:440px;
+	color: #ddd;
+	position:relative;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+.a-c-a{
+	color: #000;
+
+}
+.a-d{
+	width:630px;
+	margin:0px;
+	padding:0px;
+}
+.a-e{
+	font-size:30px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+.a-f{
+	margin-right:15px;
+	color:#ddd;
+}
+.a-g{
+	background: #ff9;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	border: 1px solid #FFFF00;
+	margin-top: 10px;
+	margin-bottom:50px;
+	text-align:center;
+	float:left;
+}
+.a-h{
+	float:left;
+	width:200px;
+	margin-right:70px;
+}
+.a-i{
+	background:#fff;
+	border:1px solid #666;
+	padding: 15px;
+	position:absolute;
+	width:670px;
+	z-index:1001!important;
+}
+.a-k{
+	font-size:12px;
+	height:80px;
+	text-align:left;
+	width:430px;
+	max-width:430px;
+	vertical-align:top;
+}
+.a-l{
+	float:left;
+	margin: 5px 5px 0px 0px;
+	width: 50px;
+}
+.a-m{
+	float:left;
+	width: 675px;
+}
+.a-n{
+
+}
+.a-p{
+	float:left;
+	margin: 5px;
+	width:200px;
+}
+.a-q{
+	clear:both;
+}
+.a-r{
+	width:640px;
+	color: #666;
+	position:relative;
+	float:left;
+	clear:both;
+	margin-top:10px;
+	padding:0px;
+}
+.a-s{
+	width:440px;
+	color: #777;
+	position:relative;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+.a-t{
+	width:300px;
+}
+.a-u{
+	width:150px;
+	margin-right:10px;
+}
+.a-v{
+	background:#EFFFEF;
+}
+.a-w{
+	font-weight: bold;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.a-x{
+	position:absolute; 
+	background-image: none; 
+	background-attachment: scroll; 
+	background-repeat: repeat;  
+	background-color: transparent; 
+	white-space: nowrap;
+	z-index:-1;
+	margin:2px;
+	letter-spacing:;
+	overflow:hidden;
+	font-size: 14px;
+	height:26px;
+	line-height:25px;
+	margin-left:6px;
+}
+.a-y{
+	color:#CCC;
+}
+.a-z{
+	
+	padding:10px 0px;
+	border:0px;
+	border-bottom: 1px solid #ccc;
+	width:100%;
+}
+.b-a{
+	clear:left;
+}
+.b-b ul{
+	list-style:none;
+	color: #777;
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-position: inside;
+}
+.b-b {
+	width:305px;
+	float:left;
+	padding-left:15px;
+}
+.b-c{
+	border-bottom: 1px solid #dedede;
+}
+.b-d{
+}
+.b-e{
+	width:10px;
+	height:10px;
+	background: url('../img/delete_icn.jpg') no-repeat; /*#3d3d3d;*/
+	margin-top:5px;
+	float:left;
+	cursor:pointer;
+}
+.b-f{
+	width:290px;
+	float:left;
+}
+
+.footer{
+	float:left;
+	width:100%;
+	margin:50px auto 20px 0px;
+}
+.hidden{
+	display:none;
+}
+.light_dimmer{
+	background: #666;
+	left:0px;
+	opacity: 0.6;
+	position:absolute;
+	top:0px;
+	z-index:1000!important;
+}
+label{
+	margin-left:5px;
+}
+#email{
+	clear:right;
+}
+#full_name{
+	cursor: pointer;
+}
+#first_name{
+	margin-right: 10px;
+}
+#comp_search{
+	background-color: transparent;
+	background-image: none;
+	color:#000;
+	letter-spacing:;
+	font-size: 14px;
+	line-height:25px;
+	width: 655px;
+	height:25px;
+	padding-left: 4px;
+	padding-right: 10px;
+	-moz-box-sizing: content-box;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #999;
+	border-left:1px solid #000;
+}
+.error{
+	width:299px;
+	height:20px;
+	background: #F0D9D9;
+	border: 1px solid #E0B4B4;
+	color:#900; 
+	text-align:left;
+	line-height:20px;
+	padding-left:5px;
+	clear:both;
+}
+.s_highlighted{
+	background:#C7EDFF;
+}
+.pink_highlight{
+	background:#FFE1D5;
+}
+.cds_logo{
+	background: transparent url('../img/cds_logo.png') no-repeat;
+	float:left;
+	width:91px;
+	height:85px;
+}
+.cds_logo_text{
+	text-align:center;
+	float: left;
+	margin-left: 0px;
+}
+.cds_logo_text h1, .cds_logo_text h1 a, .cds_logo_text h1 a:hover, .cds_logo_text h1 a:visited{
+	text-decoration: none;
+	color: #333;
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-weight: bold;
+	margin: 20px auto 4px auto;
+}
+.description {
+	color: #ccc;
+	font-size:1.2em;
+	text-align: center;
+	text-decoration: none;
+}

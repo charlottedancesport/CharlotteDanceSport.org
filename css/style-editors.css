@@ -1,0 +1,410 @@
+/*  
+Theme Name: Charlotte DanceSport
+Theme URI: http://www.charlottedancesport.org
+Description: The default theme for the 49er's Social & Ballroom Dance Club
+Version: 1.0
+Author: Lance Newby
+//Author URI: http://www.lancenewby.com
+
+   Cascading Style Sheet for Charlotte DanceSport
+   (c) 2010 Charlotte DanceSport d/b/a/ 49er Social & Ballroom Dance Club
+*/
+
+body {
+	font: 12px/16px Arial, Helvetica, sans-serif;
+}
+#content {
+	width: 720px; 
+	}
+#logo_and_text_container {
+	width:338px;
+	height:58px;
+	border-bottom: 2px solid #587F33;
+	float:left;
+	margin-left:44px;
+	vertical-align:bottom;
+	}
+#logo_and_text_container .cds_logo {
+	float:left;
+	margin: 10px 10px 0px 10px;
+	}
+#logo_and_text_container h2 {
+	margin: 36px 0px 0px 0px;
+	padding: 0px;
+	float:left;;
+	}	
+#nav_tabs_container {
+	width:304px;
+	height:58px;
+	float:left;
+	vertical-align:bottom;
+	}
+#nav_tabs_container .tab {
+	width: 75px;
+	height: 22px;
+	float: left;
+	border-bottom: 2px solid #587F33;
+	text-align: center;
+	margin: 36px 0px 0px 0px;
+	line-height: 22px;
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+.tab a, .tab a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color:#777;
+	}
+.hover_tab {
+	background: #587F33;
+	cursor: pointer;
+	}
+.cookie_crumb {
+	float: left;
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #999;
+	white-space: nowrap;
+	margin: 0px 0px 0px 44px;
+	width: 633px;
+	}
+.cookie_crumb a {
+	text-decoration: none;
+	color: #999;
+	}
+.cookie_crumb a:hover {
+	text-decoration: underline;
+	color: #999;
+	}
+.edit_toolbar {
+	width: 633px;
+	float: left;
+	}
+.photo_edit {
+	width: 633px;
+	float:left;
+	margin-top: 10px
+	}
+.filename_div { 
+	width: 633px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	}
+.photographer_lbl {
+	margin-right: 15px;
+	font-size: 1.5em;
+	}
+.title_lbl {
+	margin-right: 15px;
+	font-size: 1.5em;
+	}
+.title {
+	width: 100px;
+	}
+.url {
+	width: 100px;
+	}
+.duration_span {
+	margin-right:10px;
+	}
+.duration_lbl {
+	margin-left: 20px;
+	margin-right: 10px;
+	}
+#current_home, #current_editor {
+	float:left;
+	width: 550px;
+	}
+.no_images{
+	padding:5px; 
+	-moz-border-radius: 6px; 
+	border-radius: 6px; 
+	margin: 10px auto 30px auto; 
+	width:350px; 
+	background: #587f33; 
+	color: #fff; 
+	text-align: center;
+	font-size: 1.2em; 
+	line-height: 1.5em;
+	}
+#nav_tabs_container .current_tab {
+	width: 75px;
+	height: 22px;
+	float: left;
+	border-top: 2px solid #587F33;
+	border-left: 2px solid #587F33;
+	border-right: 2px solid #587F33;
+	color: #587F33;
+	margin: 36px 0px 0px 0px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 22px;
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+#fileQueue {
+	width: 623px;
+	overflow: auto;
+	border: 0px solid #E5E5E5;
+	margin-bottom: 10px;
+	background: #fff;
+	margin: 1px;
+	}
+#uploadifyUploader {
+	color: #000;
+	}
+#upload_container {
+	margin: 10px;
+	padding: 0px;
+	border: 2px solid #85EB94;
+	min-width: 647px;
+	width: 647px;
+	float: left;
+	margin-left: 44px;
+	}
+#upload_container .header_box {
+	background: #C8F7A6;
+	height: 40px;
+	width: 100%;
+	font-size:24px;
+	font-weight:500;
+	color: #0BA003;
+	
+	}
+#upload_container .header_box p {
+	margin: 0px;
+	line-height: 40px;
+	padding-left: 10px;
+	}
+#upload_container .details_box {
+	padding: 5px 10px 10px 10px;
+	font-size: 1.2em;
+}
+#upload_container .details_box li {
+	margin: 5px auto 5px 10px;
+	font-size: 1em;
+}
+#upload_queue_container {
+	border: 1px solid #0BA003;
+	width: 625px;
+	background: #C8F7A6;
+	margin-top: 20px;
+}
+.uploadify_controls{
+	margin: 5px 0px 5px 10px;
+	height: 28px;
+	width: 610px;
+}
+#upload_files{
+    margin: 15px auto 5px 10px;
+    width: 110px;
+}
+#upload_files_btn_container{
+	width: 145px;
+	float: left;
+}
+#continue_link_container{
+	width: 100px;
+	float: left;
+	height: 45px;
+	line-height: 45px;
+}
+.submission_btns {
+	margin-top: 10px;
+}
+.browse_btn{
+	width: 135px;
+	height: 28px;
+	float: left;
+}
+.clear_queue{
+	width: 370px;
+	height: 28px;
+	float: left;
+	line-height: 28px;
+}
+#continue_link_container a, .clear_queue a{
+	text-decoration: none;
+	color: #0BA003;
+}
+#continue_link_container a:hover, .clear_queue a:hover{
+	text-decoration: underline;
+	color: #0BA003;
+}
+.edit_tool_content {
+	padding-left:44px;
+	width: 633px;
+}
+.single_img_container {
+	width: 250px;
+	height: 140px;
+	float: left;
+	margin: 5px 25px 5px 0px;
+}
+.section_divider {
+	color: #ddd;
+	font-size: 1.2em;
+	width: 550px;
+	height: 20px;
+	float: left;
+	margin: 10px 0px 10px 0px;
+	padding-left: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.single_img_container p {
+	margin: 2px 0px 0px 0px;
+	padding: 0px;
+	color:#555;
+	font-size: .9em;
+}
+.single_img_container img:hover{
+	cursor:pointer;
+}
+ul, li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	list-style-type:none;
+	}
+.dance_tip_list{
+	width: 550px;
+	float:left;
+}
+.dance_tip_list li span {
+	float: left;
+	margin: 0px 5px 0px 5px;
+}
+.dance_tip_li {
+	border: 1px solid #fff;
+	margin: 1px;
+	padding: 4px;
+}
+.add_tip_container {
+	width: 100%;
+	float:left;
+}
+#add_tip_input{
+	width: 500px;
+	height: 25px;
+	border: 1px dashed #060;
+	padding: 5px;
+	font-size: 1.2em;
+	background-repeat: no-repeat;
+}
+.dance_tip_li_hover {
+	border: 1px solid #ddd;
+	margin: 1px;
+	padding: 4px;
+}
+.bold {
+	font-weight: 600;
+	}
+.checkbox_container {
+	background: #eee;
+	width: 20px;
+	height: 5em;
+	float:left;
+	}
+.checkbox_container input {
+	margin: 2.1em 0px 0px 4px;
+	
+	}
+.image_details_container {
+	width: 228px;
+	height: 4.9em;
+	float: left;
+	border: 1px solid #fff;
+	}
+.image_details_container p {
+	margin-left: 10px;
+	}
+#header .cds_logo{
+	background: url('../img/cds_logo-50x47.png') no-repeat;
+	float:left;
+	width:50px;
+	height:47px;
+	z-index:999;
+	}
+	
+#header h2 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #999;
+	}
+	
+.photoRemoval {
+	border: 2px solid #FBCBBC !important;
+	background-color: #FDE5DD !important;
+}
+
+.remove_link {
+	cursor:pointer;
+	color: #06F;
+	}
+.remove_link:hover {
+	cursor:pointer;
+	text-decoration:underline;
+	}
+
+#yellow_alerts {
+	background: #FFFFA6;
+	border: 2px solid #FF8040;
+	color: #FF8040;
+	font-size: 1.4em;
+	font-weight: bold;
+	float: left;
+	height: 1.5em;
+	position:relative;
+	width: 633px;
+	min-width: 633px;
+	line-height:1.5em;
+	padding-left: 15px;
+	margin: auto 10px auto 44px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 2px 2px 2px #C8C8C8;
+	box-shadow: 2px 2px 2px #C8C8C8;
+}
+#changes_saved_alert {
+	background: #FFFFA6;
+	border: 1px solid #FF8040;
+	color: #555;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	white-space:nowrap;
+	height: 1.4em;
+	float: right;
+    min-width: 200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height:1.4em;
+	/*margin: 5px 0px 5px 0px;*/
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 2px 2px 2px #C8C8C8;
+	box-shadow: 2px 2px 2px #C8C8C8;
+}
+#changes_saved_container{
+	width: 647px;
+	height: 1.5em;
+	margin: 5px 0px 5px 0px;
+	float: left;
+}
+.yellow_highlighter {
+	background: #FFC;
+	}
+.yellow_highlighter_img_details {
+	color: #FF8040;
+	border: 1px solid #FF8040;
+	width: 228px;
+	height: 4.9em;
+	}
+.hidden {
+	display:none;
+	}
+.photo_details {
+	border-bottom: 1px solid #CCC;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	}

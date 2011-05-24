@@ -1,0 +1,48 @@
+<div id="detailed_wrapper">
+<!-- 
+* Make changes by first commenting out the flyer
+* and uncomment the sections post sections.
+* Add multiple post by copying and pasting the 
+* post_wrapper div :)
+-->
+
+<?php if( !is_user_logged_in() ) : ?>
+
+<!-- The CDC 2011 flyer -->
+	<div class="cdc2011_flyer"></div>
+<!-- Flyer ends -->
+
+<?php else : ?>
+
+<div class="post">
+    <div class="post_details">
+        <div class="post_details_wrapper">
+            <div class="date_wrapper">
+                <div class="post_day">5</div>
+                <div class="month_day_wrapper">
+                    <div class="post_month">Apr</div>
+                    <div class="post_year">2011</div>
+                </div>
+            </div>
+            <div>
+                <p class="post_by">Posted by:</p>
+                <p class="post_author">Okan Pala</p>
+            </div>
+        </div>
+    </div>
+    <div class="white_left_arrow"></div>
+    <div class="entry">
+        <div class="entry_wrapper">
+        <!-- ADD POST CONTENT HERE -->
+        
+        <p>Example text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        <!-- END CONTENT ADDITION -->
+        </div>
+        
+    </div>
+</div>
+
+<?php endif; ?>         
+          
+</div>

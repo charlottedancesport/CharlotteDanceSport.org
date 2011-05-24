@@ -1,0 +1,112 @@
+/* CSS Document */
+body {
+	font: 12px/16px Arial, Helvetica, sans-serif;
+}
+#fileQueue {
+	width: 623px;
+	overflow: auto;
+	border: 0px solid #E5E5E5;
+	margin-bottom: 10px;
+	background: #fff;
+	margin: 1px;
+	}
+#uploadifyUploader {
+	color: #000;
+	}
+#upload_container {
+	margin: 10px;
+	padding: 0px;
+	border: 2px solid #85EB94;
+	min-width: 647px;
+	}
+#upload_container .header_box {
+	background: #C8F7A6;
+	height: 40px;
+	width: 100%;
+	font-size:24px;
+	font-weight:500;
+	color: #0BA003;
+	
+	}
+#upload_container .header_box p {
+	margin: 0px;
+	line-height: 40px;
+	padding-left: 10px;
+	}
+#upload_container .details_box {
+	padding: 5px 10px 10px 10px;
+	font-size: 1.2em;
+}
+#upload_container .details_box li {
+	margin: 5px auto 5px 10px;
+	font-size: 1em;
+}
+#upload_queue_container {
+	border: 1px solid #0BA003;
+	width: 625px;
+	background: #C8F7A6;
+}
+ul, li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	list-style-type:none;
+	}
+.bold {
+	font-weight: 600;
+	}
+#header .cds_logo{
+	background: url('img/cds_logo-50x47.png') no-repeat;
+	float:left;
+	width:50px;
+	height:47px;
+	z-index:999;
+	}
+	
+#header h2 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #999;
+	}
+	
+.photoRemoval {
+	border: 2px solid #FBCBBC !important;
+	background-color: #FDE5DD !important;
+}
+
+.remove_link {
+	cursor:pointer;
+	color: #06F;
+	}
+.remove_link:hover {
+	cursor:pointer;
+	text-decoration:underline;
+	}
+
+#yellow_alerts {
+	background: #FFFFA6;
+	border: 2px solid #FF8040;
+	color: #FF8040;
+	font-size: 1.4em;
+	font-weight: bold;
+	height: 1.5em;
+	position:relative;
+	width: width:100%;
+	min-width: 633px;
+	line-height:1.5em;
+	padding-left: 15px;
+	margin: auto 10px auto 10px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 2px 2px 2px #C8C8C8;
+	box-shadow: 2px 2px 2px #C8C8C8;
+}
+
+.yellow_highlighter {
+	background: #FFC;
+	}
+	
+.hidden {
+	display:none;
+	}
